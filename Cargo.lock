@@ -688,14 +688,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "nwtt-token-contract"
-version = "0.0.6"
-dependencies = [
- "soroban-sdk",
- "soroban-token-sdk",
-]
-
-[[package]]
 name = "object"
 version = "0.36.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1145,6 +1137,14 @@ dependencies = [
  "stellar-xdr",
  "syn",
  "thiserror",
+]
+
+[[package]]
+name = "soroban-token-contract"
+version = "0.0.6"
+dependencies = [
+ "soroban-sdk",
+ "soroban-token-sdk",
 ]
 
 [[package]]
