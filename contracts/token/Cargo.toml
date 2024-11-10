@@ -1,6 +1,6 @@
 [package]
-name = "soroban-token-contract"
-description = "Soroban standard token contract"
+name = "token"
+description = "NWTT token contract"
 version = "0.0.6"
 edition = "2021"
 
